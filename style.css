@@ -1,0 +1,86 @@
+h1{
+    color: bisque;
+    text-align: center;  
+}
+
+p{
+  color: black;
+  text-align: center;
+}
+table{ text-align: center;
+   
+}
+#paragraph{
+  color: green;
+  font-size: xx-large;
+}
+h2{
+  color: blue;  
+}
+.container {
+  display: flex;
+}
+.title{
+  text-align: center;
+  color: green;
+  
+}
+
+.title2{
+  text-align: center;
+  color: green;
+}
+
+  
+  
+#paragrah{
+  background-color: blue;
+  text-align: center;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.styled-table th {
+  background-color: #f2f2f2;
+}
+
+.styled-table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.styled-form {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+/* Importer la police Roboto depuis Google Fonts (assurez-vous de l'ajouter dans votre balise head) */
+
+.navbar a {
+  float: left; /* Pour aligner les éléments à gauche */
+  display: block; /* Pour que les liens soient des blocs et occupent toute la largeur de la barre */
+  color: white; /* Couleur du texte */
+  text-align: center; /* Alignement du texte au centre */
+  padding: 14px 16px; /* Espace autour du texte à l'intérieur des liens */
+  text-decoration: none; /* Pas de soulignement sur les liens */
+}
+
+/* Changement de style au survol des liens */
+.navbar a:hover {
+  background-color: #ddd; /* Couleur de fond au survol */
+  color: black; /* Couleur du texte au survol */
+}
